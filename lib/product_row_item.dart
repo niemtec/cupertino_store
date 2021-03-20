@@ -50,7 +50,7 @@ class ProductRowItem extends StatelessWidget {
                   ),
                   const Padding(padding: EdgeInsets.only(top: 8)),
                   Text(
-                    '\$${product.price}',
+                    '\£${product.price}',
                     style: Styles.productRowItemPrice,
                   )
                 ],
